@@ -1,5 +1,5 @@
 variable "env" {
-  default = ""
+  default = "stage"
 }
 
 variable "project_name" {
@@ -8,4 +8,7 @@ variable "project_name" {
 
 variable "retention_in_days" {
   default = ""
+}
+
+variable "stateless_services" {
 }

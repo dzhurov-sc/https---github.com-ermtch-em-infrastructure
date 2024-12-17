@@ -6,6 +6,6 @@ terraform {
       configuration_aliases = [
         aws.dev_virginia
       ]
-    } 
+    }
   }
 }
