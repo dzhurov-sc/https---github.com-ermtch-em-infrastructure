@@ -15,3 +15,10 @@ provider "aws" {
     }
   }
 }
+
+provider "aws" {
+  access_key = var.aws_access_key_em
+  secret_key = var.aws_secret_key_em
+  alias      = "dev_virginia"
+  region     = "us-east-1"
+}

@@ -19,6 +19,3 @@ variable "private_subnets_cidr" {
 
 variable "availability_zones" {
 }
-
-variable "main_sg" {
-}

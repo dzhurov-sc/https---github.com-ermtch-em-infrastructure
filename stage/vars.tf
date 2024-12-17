@@ -31,3 +31,9 @@ variable "env" {
   description = "Environment type"
   default     = "stage"
 }
+
+variable "http_stage_secret_header_em" {
+  description = "Header to access CF origins directly"
+  sensitive   = true
+  default     = ""
+}

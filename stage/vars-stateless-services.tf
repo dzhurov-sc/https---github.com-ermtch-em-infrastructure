@@ -6,7 +6,7 @@ variable "stateless_services" {
     "api" = {
       execution_role         = "arn:aws:iam::509399618451:role/ecs-task-execution"
       dns_names              = "testv1.groovesharks.world"
-      desired_count          = 1
+      desired_count          = 0
       cpu                    = 1024
       memory                 = 2048
       container_port         = "80"
